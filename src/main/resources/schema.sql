@@ -1,0 +1,1 @@
+CREATE TABLE numbers (num INTEGER NOT NULL, create_time DATETIME NOT NULL);
