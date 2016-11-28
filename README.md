@@ -27,8 +27,8 @@ public class ApplicationConfiguration {
 }
 ```
 
-Run the application. You should see Spring complain that there are more than one candidate bean of type
-NumberStorer.
+   Run the application. You should see Spring complain that there are more than one candidate bean of type
+   NumberStorer.
 
    Use the `@Profile` annotation on the bean definition for FileNumberStorer in DataAccessConfiguration.
    
