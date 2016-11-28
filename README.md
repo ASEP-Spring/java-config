@@ -11,7 +11,7 @@ and add a second bean definition for a FileNumberStorer. Add `@Import(DataAccess
 to reference this new `@Configuration` class. Additionally in ApplicationConfiguration, add a field of type NumberStorer and annotate
 this field with `@Autowired`. Now alter the bean definition of NumberReaderImpl to reference the new field in its constructor. See below...
 
-```java
+   ```java
 @Configuration
 @Import(DataAccessConfiguration.class)
 public class ApplicationConfiguration {
